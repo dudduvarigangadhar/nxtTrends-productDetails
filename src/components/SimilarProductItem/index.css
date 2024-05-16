@@ -1,0 +1,92 @@
+.similar-products-list-container {
+  margin-top: 50px;
+}
+
+.similar-products-heading {
+  font-family: 'Roboto';
+  color: #475569;
+  /* text-align: center; */
+  margin-left: 25%;
+}
+@media screen and (max-width: 768px) {
+  .similar-products-heading {
+    margin-left: 13%;
+  }
+}
+
+.similar-product-image {
+  height: 200px;
+}
+
+.list-item {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .list-item {
+    margin-right: 0px;
+    margin: 0px;
+  }
+}
+
+.similar-product-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.similar-product-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 23%;
+}
+
+@media screen and (max-width: 768px) {
+  .similar-product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 13%;
+  }
+}
+
+.similar-product-rating-container {
+  background-color: #3b82f6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 55px;
+  color: #ffffff;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.similar-product-rating-img {
+  height: 17px;
+  margin-left: 5px;
+}
+
+.similar-product-rating {
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.price-and-rating-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.similar-product-brand {
+  font-family: 'Roboto';
+  color: #616e7c;
+}
+
+.similar-product-price {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
