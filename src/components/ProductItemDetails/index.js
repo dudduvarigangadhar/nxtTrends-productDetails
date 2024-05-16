@@ -194,7 +194,7 @@ class ProductItemDetails extends Component {
         <div className="failure-content">
           <img
             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-error-view-img.png"
-            alt="error view"
+            alt="failure view"
             className="error-view-image"
           />
           <h1 className="product-not-found">Product Not Found</h1>
